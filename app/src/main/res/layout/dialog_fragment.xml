@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/back"
+                android:background="#00000000"
+                android:fitsSystemWindows="true">
+    <RelativeLayout
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:id="@+id/titlebar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/kacha_edit_ad_no"/>
+        <TextView
+            android:id="@+id/content_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="222222222"
+            android:textColor="#000000"
+            android:textSize="16sp"
+        />
+        <ImageView
+            android:id="@+id/titlebar_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/kacha_edit_ad_yes"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/templet_content_input"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:gravity="top|center"
+        android:maxLines="1"
+        android:textSize="16sp"
+    />
+
+</RelativeLayout>
